@@ -4,8 +4,8 @@ import PkIndexView from '../views/pk/PkIndexView.vue'
 import RanklistIndexView from '../views/ranklist/RanklistIndexView.vue'
 import RecordIndexView from '../views/record/RecordIndexView.vue'
 import UserBotIndexView from '../views/user/bot/UserBotIndexView.vue'
-
-
+import UserAccountRegisterview from '@/views/user/account/UserAccountRegisterview.vue'
+import UserAcoountLoginView from '@/views/user/account/UserAcoountLoginView.vue'
 
 
 
@@ -29,6 +29,16 @@ const routes = [
     path: "/record/",
     name: "record_index",
     component: RecordIndexView
+  },
+  {
+    path: "/user/account/login/",
+    name: "user_account_login",
+    component: UserAcoountLoginView
+  },
+  {
+    path: "/user/account/register",
+    name: "user_account_register",
+    component: UserAccountRegisterview
   },
   {
     path: "/user/bot/",
