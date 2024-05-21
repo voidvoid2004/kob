@@ -15,7 +15,7 @@ export default{
 
 </script>
 
-<style>
+<style scoped>
 .playground {
     width: 60vw;
     height: 70vh;
